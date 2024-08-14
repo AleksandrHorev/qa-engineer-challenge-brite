@@ -1,12 +1,12 @@
-The task:
+# The task:
 
-Write the following bug report:
-While performing the 2nd test on point 1 (Top Box Office test) you found each time you try to
-rate a movie with 10 stars, the Rate button is not enabled, so you cannot submit the data.
-Write a bug to report this issue.
+# Write the following bug report:
+# While performing the 2nd test on point 1 (Top Box Office test) you found each time you try to
+# rate a movie with 10 stars, the Rate button is not enabled, so you cannot submit the data.
+# Write a bug to report this issue.
 
 
-Solution:
+# Solution:
 
 Title: “Rate” button is disabled after setting 10 stars in the rating form
 Severity: High
