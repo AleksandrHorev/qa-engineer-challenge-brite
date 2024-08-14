@@ -1,0 +1,35 @@
+The task:
+
+Write the following bug report:
+While performing the 2nd test on point 1 (Top Box Office test) you found each time you try to
+rate a movie with 10 stars, the Rate button is not enabled, so you cannot submit the data.
+Write a bug to report this issue.
+
+
+Solution:
+
+Title: “Rate” button is disabled after setting 10 stars in the rating form
+Severity: High
+Priority: High
+Environment:
+  • Device: Desktop
+  • Operating System: Windows 10
+  • Browser: Google Chrome Version 114.0.5735.198
+  • URL: IMDb.com
+Description: When attempting to rate a movie with 10 stars in the Top Box Office section, the "Rate" button becomes disabled after selecting 10 stars.
+Steps to Reproduce:
+  1. Go to IMDb.com.
+  2. Click on the Menu button at the top left corner of the homepage.
+  3. Click to the Top Box Office.
+  4. Click on the Second film in the Top Box Office list.
+  5. On the movie's page, click on the IMDb Rating button.
+  6. Click on the Rate button.
+  7. Set a rating of 10 stars by clicking the 10th star.
+Expected Result: The "Rate" button should become enabled, allowing the user to submit their 10-star rating.
+Actual Result: The "Rate" button continues to be disabled after selecting 10 stars.
+Additional Information:
+  • The issue does not occur when selecting a rating other than 10 stars.
+Suggested Fix: Review the logic that controls the state of the "Rate" button after selecting a rating. Ensure that “10” is included in a range of valid values.
+
+Screenshots/Attachments:
+a screenshot is attached in the same folder
