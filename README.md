@@ -1,6 +1,6 @@
 # cypress-assignment
 
-The repo contains all solutions for QA Engineer Challenge. It has 4 folders, every folder has a corresponding task.
+The repo contains all solutions for QA Engineer Challenge. It has 4 folders, each folder contains corresponding task.
 
 ## 1 - cypress, ui
 
