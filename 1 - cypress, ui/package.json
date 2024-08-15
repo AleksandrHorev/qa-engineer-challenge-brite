@@ -11,6 +11,6 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome"
   },
-  "author": "",
+  "author": "Aleksandr Khorev",
   "license": "ISC"
 }
