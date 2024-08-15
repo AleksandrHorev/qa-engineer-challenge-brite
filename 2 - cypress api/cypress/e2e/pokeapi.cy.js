@@ -1,5 +1,5 @@
 describe('pokeapi spec', () => {
-  it('User can reuqest with a valid ID', () => {
+  it('User can request with a valid ID', () => {
     const id = 1
     const url = `berry/${id}`;
     cy.request('GET', url)
@@ -23,7 +23,7 @@ describe('pokeapi spec', () => {
       })
   })
   
-  it('User can reuqest with a valid NAME', () => {
+  it('User can request with a valid NAME', () => {
     const name = 'chesto'
     const url = `berry/${name}`;
     cy.request('GET', url)
@@ -47,7 +47,7 @@ describe('pokeapi spec', () => {
       })
   })
 
-  it('User can request "spicy" berries and get a specific one', () => {
+  it('User can request "spicy" berries and get a the most potency one', () => {
     const berryType = 'spicy'
     const urlFlavor = `berry-flavor/${berryType}`;
     let theMostPotencyBerry
