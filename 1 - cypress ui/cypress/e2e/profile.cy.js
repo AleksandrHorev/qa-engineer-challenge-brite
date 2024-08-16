@@ -11,7 +11,7 @@ describe('Profile spec', () => {
     })
 
     const profilePage = new ProfilePage();
-    profilePage.upcoming().click()
-    profilePage.upcomingMovieByType('Post-production').click()
+    profilePage.upcoming().click();
+    profilePage.upcomingMovieByType('Post-production').click();
   })
 })

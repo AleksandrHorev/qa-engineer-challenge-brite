@@ -18,8 +18,8 @@ describe('Born today spec', () => {
     advancedSearchPage.birthdayDate().type(yesterday);
     advancedSearchPage.birthday().click();
     advancedSearchPage.search().click();
-    const numberOfThePerson = 3;
-    advancedSearchPage.allPeople().click(numberOfThePerson);
+    const thirdOnTheList = 3;
+    advancedSearchPage.allPeople().click(thirdOnTheList);
 
     cy.screenshot(`born-today-spec-find-celebrity/${new Date().toISOString()}`);
   })

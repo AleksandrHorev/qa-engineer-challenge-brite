@@ -18,7 +18,7 @@ class PhotosPage {
   }
 
   selectPerson(name) {
-    cy.get(this.morePeopleSelector).select(name)
+    cy.get(this.morePeopleSelector).select(name);
   }
 
   closeFilter() {
@@ -30,7 +30,7 @@ class PhotosPage {
   }
 
   waitPhotosAmount(amount) {
-    cy.get('[data-testid="image-gallery-image"]').should('have.lengthOf', amount)
+    cy.get('[data-testid="image-gallery-image"]').should('have.lengthOf', amount);
   }
 }
 

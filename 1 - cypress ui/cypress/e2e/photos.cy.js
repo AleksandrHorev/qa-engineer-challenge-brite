@@ -12,19 +12,19 @@ describe('Photos spec', () => {
     homePage.top250TvShows().click();
 
     const top250TvShows = new Top250TvShowsPage();
-    top250TvShows.getMovieByName('Breaking Bad').click()
+    top250TvShows.getMovieByName('Breaking Bad').click();
 
-    const moviePage = new MoviewPage()
-    moviePage.photos().click()
+    const moviePage = new MoviewPage();
+    moviePage.photos().click();
 
-    const photosPage = new PhotosPage()
-    photosPage.gallery().click()
-    photosPage.filter().click()
-    photosPage.selectPerson('Danny Trejo (6)')
-    photosPage.closeFilter().click()
-    photosPage.waitPhotosAmount(6)
+    const photosPage = new PhotosPage();
+    photosPage.gallery().click();
+    photosPage.filter().click();
+    photosPage.selectPerson('Danny Trejo (6)');
+    photosPage.closeFilter().click();
+    photosPage.waitPhotosAmount(6);
 
-    const photoPosition = 2
-    photosPage.allPhotos().click(photoPosition)
+    const photoPosition = 2;
+    photosPage.allPhotos().click(photoPosition);
   })
 })

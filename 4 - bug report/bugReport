@@ -7,6 +7,7 @@
 
 
 # Solution:
+# Note: severity and priority may need to be discussed with the product manager/business analytic
 
 Title: “Rate” button is disabled after setting 10 stars in the rating form
 Severity: High
